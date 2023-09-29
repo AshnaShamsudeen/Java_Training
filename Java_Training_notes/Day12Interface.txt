@@ -1,0 +1,103 @@
+Day12
+-----------
+
+
+
+instanceOf():to check whether an object is an instance of a class 
+
+Car car=new EV();
+
+//CAR is an instance of EV,CAR,object--->true
+//car instance of fuelEngine-->false
+
+final keyword in java
+-----------------------
+eg:
+ x=50;
+ x++;
+*final variable--->the value of final variables can't change
+		-->final variables are treated as constants
+
+*final class ---->if we use it in a class ,it can't be extended
+
+*final() method--->can't be over ridden
+final void brake()
+{
+......
+}
+
+
+Abstraction in java
+-------------------
+if a class contains an abstract method then that class also have to declared as abstract class
+*hiding the implementation
+*you can't never instantiate(object creation)in a class
+*final and abstract method can't be used together
+*in abstract class, final method is valid
+*in final class , abstract class is invalid
+abstract class--->class which is incomplete
+any class which is not abstract is called concrete class
+2 ways
+-------------
+interface
+abstract class
+
+
+
+Has a relationship
+_---------
+
+EG:class Phone{
+Sim sim;
+makeACall(){
+sim.call();
+}
+}
+
+
+}
+class Sim{
+call(){
+...
+}
+sendSms(){
+....
+}
+
+*when one module dependent on another module this kind of dependency is called coupling
+a)loose coupling
+b)tight coupling
+
+Interface
+---------
+*just like a class but it'll contain only abstract methods.
+*in interface by default all the methods are public and abstract.
+
+limitation
+------------
+*multiple inheritence of classes is achieved using interface in java
+*interface can only use if there is functionality ,no variables the prefer interface.
+*we can extend a class and implement many number of interfaces
+
+
+challenges
+-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+Sequence Diagram
+----------------
+Sequence that occur to achive some needs

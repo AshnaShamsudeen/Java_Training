@@ -1,0 +1,28 @@
+Regular Expression
+------------------
+Examples -
+[abc]->either a or b or c
+eg:str="a"
+
+[abc]*->zero or more numbers of a or b or c
+eg:str="abbac";
+
+[abc]+->one or more numbers of a or b or c
+
+[a-z]*->zero  or more character 
+
+[a-zA-Z]*->ZERO OR MORE CHARACTER INCLUDING UPPERCASE
+
+[a-zA-Z0-9]*->zero or more character including digits
+
+[0-9](10)->a digit number
+[0-9](8,10)->a digit with 8 to 10 numbers
+[0-9](n,10)->max 10
+[0-9](10,n)->min 10
+
+\w==[a-zA-Z0-9]
+\d==[0-9]
+\s==white-space
+\W==except \w ie,non charACTER
+\S==no space
+\D==non digit

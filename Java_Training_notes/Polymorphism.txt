@@ -1,0 +1,138 @@
+c)Polymorphism:-many forms
+	1.static/compile time polymorphism
+		:-Method overloading
+			Same method name but diff.set of arguments.
+			return types can be anything
+	2.dynamic/run time polymorphism
+
+
+
+The word polymorphism means having many forms.
+
+-----------> ability of a message to be displayed in more than one form.
+
+* Polymorphism allows us to perform a single action in different ways.
+
+			or
+
+*polymorphism allows you to define one interface and have multiple implementations. 
+
+* “poly” means many and “morphs” means forms
+
+---->In Java polymorphism is mainly divided into two types: 
+
+Compile-time Polymorphism
+Runtime Polymorphism 
+
+1: Compile-time polymorphism/static polymorphism.
+----------------------------
+*This type of polymorphism is achieved by method overloading or operator overloading.
+*But Java doesn’t support the Operator Overloading.
+
+Method Overloading:
+-------------------
+When there are multiple functions with the same name but different parameters then these
+ functions are said to be overloaded.
+
+*Functions can be overloaded by changes in the number of arguments or/and a 
+change in the type of arguments.
+
+
+Example1
+--------
+// Java program for Method Overloading
+// by Using Different Numbers of Arguments
+ 
+// Class 1
+// Helper class
+class Helper {
+ 
+    // Method 1
+    // Multiplication of 2 numbers
+    static int Multiply(int a, int b)
+    {
+ 
+        // Return product
+        return a * b;
+    }
+ 
+    // Method 2
+    // // Multiplication of 3 numbers
+    static int Multiply(int a, int b, int c)
+    {
+ 
+        // Return product
+        return a * b * c;
+    }
+}
+ 
+// Class 2
+// Main class
+class GFG {
+ 
+    // Main driver method
+    public static void main(String[] args)
+    {
+ 
+        // Calling method by passing
+        // input as in arguments
+        System.out.println(Helper.Multiply(2, 4));
+        System.out.println(Helper.Multiply(2, 7, 3));
+    }
+}
+
+----->output:8,42
+
+
+
+Example2
+---------
+// Java Program for Method overloading
+// By using Different Types of Arguments 
+ 
+// Class 1
+// Helper class
+class Helper {
+ 
+    // Method with 2 integer parameters
+    static int Multiply(int a, int b)
+    {
+ 
+        // Returns product of integer numbers
+        return a * b;
+    }
+ 
+    // Method 2
+    // With same name but with 2 double parameters
+    static double Multiply(double a, double b)
+    {
+ 
+        // Returns product of double numbers
+        return a * b;
+    }
+}
+ 
+// Class 2
+// Main class
+class GFG {
+ 
+    // Main driver method
+    public static void main(String[] args)
+    {
+ 
+        // Calling method by passing
+        // input as in arguments
+        System.out.println(Helper.Multiply(2, 4));
+        System.out.println(Helper.Multiply(5.5, 6.3));
+    }
+}
+
+output----->8,34.65
+
+
+2: Runtime polymorphism
+------------------------
+
+ompile-time polymorphism is a polymorphism that is resolved during the compilation process
+
+

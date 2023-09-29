@@ -1,0 +1,10 @@
+package practice_questions;
+
+public class Common_elements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

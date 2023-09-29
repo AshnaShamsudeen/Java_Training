@@ -1,0 +1,73 @@
+JAVASCRIPT
+----------
+*Scripting language(early period)
+*Programming language
+*can build mobile and IOS App react native
+*node and express
+*machine learning
+
+*case sensitive
+
+*Node JS-RUNTIME ENGINE WHICH CAN RUN A JAVASCRIPT SIMILAR TO JRE WHICH IS A JAVA RUNTIME ENGINE
+*if you have to print it on console --->console.log(num)
+*if you have to print it on page--->document.write(num)
+
+*HOW TO INCLUDE  JS INSIDE THE HTML
+-Internal JS
+-External JS
+-Inline JS
+
+JavaScript variables and data types
+------------------------------------
+number-5,2.5,-3.65546
+string-'hello',"rahul","""harsh""",`javed`
+boolean-true/false	
+object-
+eg:
+	let employee1={
+		employeeId:1001,
+		employeeName:'Rahul'
+		}
+
+	let employee2={
+		employeeId:1001,
+		email:'rahul@yahoo.com'
+		}
+
+Date-represents a date
+
+HOW TO DECLARE VARIABLES
+------------------------
+X=10 -->GLOBAL DECLARATION
+var y=20 //function level declaration
+let z = 30 //block level declaration-->prefe r this to declare a  variable (best practice)
+
+
+
+JAVASCRIPT BASIC BUILDING BLOCKS
+---------------------------------
+Contro Statements
+-----------------
+
+-if-else
+-switch
+-conditional operator(?:)
+
+Looping
+---------
+while 
+do-while
+for
+
+Equals in JS
+------------
+= :-Assigning
+== :-Comparing different data types
+=== :-Proper comparison(prefer this)
+
+Arrays
+------
+*no need to mention the size of an array when declaring
+eg:
+	let arr=[10,20,30,'Ramesh','Sumesh']-->valid
+

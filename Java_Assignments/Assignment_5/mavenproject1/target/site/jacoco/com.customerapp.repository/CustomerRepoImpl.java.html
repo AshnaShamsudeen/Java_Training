@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CustomerRepoImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">com.ust.app</a> &gt; <a href="index.source.html" class="el_package">com.customerapp.repository</a> &gt; <span class="el_source">CustomerRepoImpl.java</span></div><h1>CustomerRepoImpl.java</h1><pre class="source lang-java linenums">package com.customerapp.repository;
+import java.util.List;
+import java.util.Map;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import com.customerapp.model.SetCustomer;
+
+<span class="fc" id="L9">public class CustomerRepoImpl implements CustomerRepo{</span>
+<span class="fc" id="L10">	Map&lt;Integer,SetCustomer&gt; customerdb=new HashMap&lt;&gt;();</span>
+
+	@Override
+	public SetCustomer addCustomer(SetCustomer c) {
+		/*SetCustomer c1=new SetCustomer(&quot;yadu&quot;,010,&quot;yadu@123&quot;);
+		SetCustomer c2=new SetCustomer(&quot;feril&quot;,070,&quot;feril@123&quot;);
+		SetCustomer c3=new SetCustomer(&quot;abhi&quot;,001,&quot;abhi@123&quot;);
+		customerdb.add(c1);
+		customerdb.add(c2);
+		customerdb.add(c3);
+		customerdb.add(c);*/
+		
+		// TODO Auto-generated method stub
+<span class="fc" id="L23">		customerdb.put(c.getId(),c);</span>
+<span class="fc" id="L24">		return c;</span>
+	}
+
+	@Override
+	public SetCustomer getCustomerById(int id) {
+		/*for(SetCustomer c:customerdb) {
+			if(c.getId()==(id)) {
+				System.out.println(&quot;Customer Found&quot;+c);*/
+<span class="fc" id="L32">		return customerdb.get(id);</span>
+				//return c;
+			}
+		//}
+		// TODO Auto-generated method stub
+		//return null;
+	//}
+
+	@Override
+	public SetCustomer getCustomerByName(String name) {
+		// TODO Auto-generated method stub
+<span class="pc bpc" id="L43" title="1 of 2 branches missed.">		for(SetCustomer c:customerdb.values()) {</span>
+<span class="pc bpc" id="L44" title="1 of 2 branches missed.">			if(c.getName().equalsIgnoreCase(name)) {</span>
+				//System.out.println(&quot;Customer Found&quot;+c);
+<span class="fc" id="L46">				return c;</span>
+			}
+<span class="nc" id="L48">		}</span>
+<span class="nc" id="L49">		return null;</span>
+	}
+
+	@Override
+	public void deleteCustomer(int id) {
+		//for(SetCustomer c:customerdb) {
+			//if(c.getId()==(id)) {
+		//SetCustomer c=getCustomerById(id);
+<span class="fc" id="L57">				customerdb.remove(id);</span>
+<span class="fc" id="L58">			}</span>
+		
+		//}
+		// TODO Auto-generated method stub
+		
+	//}
+
+	@Override
+	public List&lt;SetCustomer&gt; getAllCustomers() {
+		// TODO Auto-generated method stub
+<span class="fc" id="L68">		return new ArrayList&lt;&gt;(customerdb.values());</span>
+	}
+
+	//@Override
+	public SetCustomer searchCustomer(int id) {
+		// TODO Auto-generated method stub
+<span class="nc" id="L74">		return null;</span>
+	}
+	
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

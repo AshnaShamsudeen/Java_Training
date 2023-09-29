@@ -1,0 +1,53 @@
+Spread operator
+---------------
+*present in modern javaScript
+
+Array Destructuring
+--------------------
+Object Destructuring
+---------------------
+
+
+Module 3(Server Side java Programming)
+-------------------------------------
+Server:Tomcat Server
+Servlet:java class which run on server(Spring framework will deal with this)
+
+
+Spring FrameWork
+-----------------
+java Framework
+:-Spring Core dependency Injection
+:-Spring MVC
+:-Spring Boot
+:-Spring Security
+:-Spring Cloud
+
+What is dependency?
+Phone{
+	Sim sim=new Sim();
+..
+..
+}
+
+Sim{
+......
+}
+
+*help in object type dependency not with value type dependency
+
+Autowiring
+-----------
+injecting dependency automatically
+
+
+-By name
+-By type
+
+Di HAS 3 TYPES
+--------------
+1.SETTER INJECTION
+*
+2.CONSTRUCOR INJECTION 
+*prefered one
+3.FIELD INJECTION

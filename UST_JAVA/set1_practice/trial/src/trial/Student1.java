@@ -1,0 +1,41 @@
+package trial;
+
+public class Student1 {
+	private int id;
+	private String name;
+	private float cgpa;
+	 private Student1() {
+		 
+	 }
+	 public Student1(String name, int id, float cgpa) {
+		 this.name=name;
+		 this.id=id;
+		 this.cgpa=cgpa;
+	 }
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public float getCgpa() {
+		return cgpa;
+	}
+	public void setCgpa(float cgpa) {
+		this.cgpa = cgpa;
+	}
+	@Override
+	public String toString() {
+		return "Student1 [id=" + id + ", name=" + name + ", cgpa=" + cgpa + "]";
+	}
+	
+	
+	
+
+}

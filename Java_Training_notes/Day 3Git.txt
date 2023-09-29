@@ -1,0 +1,148 @@
+GIT & GITLAB
+----------------
+
+
+GIT:
+    what?
+	version control system
+		*git can communicate with gitlab
+		*Git has repositories 
+		*we can save our changes to repository using "git commit"
+		*we can push the code to online or remote repository using "git push"
+		*we can clone/make a copy of remote repository on our local system using "git clone"
+		*we can pull the changes from remote repository to local  using "git pull"
+GITLAB:
+     what?
+	Online source code repository(remote repository)
+
+Gitlab alternative
+......................
+*GitHub
+*BitBucket
+*AWS CodeCommit
+
+What is forking?
+......................
+	Making own copy of a remote repository
+
+Setting up SSH key access
+.................................
+
+	Profile-->Preferences-->SSH keys
+		*Open CMD/terminal
+		*Type bash ssh-keygen -t rsa -b 2048 -C "<what ever you like>" 
+		*Enter file in which to save the key
+		*Enter passphrase
+			keep it blank
+		*Enter same passphrase again
+			keep it blank
+
+
+		*Go to the location where keys are saved
+		*Open the .pub key file using notepad
+		*Copy the content
+		*Paste it to the Key section on GitLab
+		*Add the key
+		*Also add the private key on your local machine using terminal
+
+			eval $(ssh-agent -s)
+			ssh-add <key-file-name>
+
+
+How to clone?
+......................................
+
+*Go to the repository
+*Click on Clone
+*Clone SSH
+*Copy the link
+	Open Termainal/CMD inside your desired folder
+		** copy the private-key in the desired folder
+		Also add the private key on your on that desired folder using terminal/git-bash
+		** Hints - repeat the eval and ssh-add commands
+		Type bash git clone <repo-link> 
+commit
+.................
+"git add ."-->add all the files to commit
+"git add file name1 file name2"-->file name1 and file name2 will be committed
+
+
+
+
+How commit new changes?
+---------------------------------------
+
+
+1.Add all the changes to stagging
+	-->git add .
+3.Commit the changes
+4.git commit -m "a suitable message"
+ 	NB: Commit will save all the changes to local repository 
+Update/Push the commit to remote
+ 	-->git push
+ 	NB: To see the status of the repository we can use  git status
+
+
+
+How to get all the changes from remote to local?
+-------------------------------------------------
+
+git pull
+
+
+Steps for completing the Exercises/Assignments
+--------------------------------------------------
+
+
+1.Go to the respective exercise/assignment repo
+2.Fork the repo
+3.Clone the forked repo on your local machine (* Hints - Follow the previous steps)
+ NB. Don't clone a repository inside another repository 
+4.Modify/Complete the exercise
+5.Commit and Push
+
+
+
+
+Problem : To find the highest among 2 numbers
+
+Algorithm
+	1.start
+	2.Input num1, num2
+	3.check if num1>num2 then print num1
+		or
+	else print num2
+	4.end
+
+
+Conditional evaluation in  java
+------------------------------------
+if-else
+switch
+conditional operator
+
+
+a)How to use if-else in java?
+------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

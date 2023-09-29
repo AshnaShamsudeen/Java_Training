@@ -1,0 +1,18 @@
+package exam_trials;
+
+public class Short_form {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str="Indian Railway";
+		String[] st1=str.split(" ");
+		for(String words:st1) {
+			System.out.print(words.charAt(0)+".");
+		
+		
+			
+		}
+
+	}
+
+}

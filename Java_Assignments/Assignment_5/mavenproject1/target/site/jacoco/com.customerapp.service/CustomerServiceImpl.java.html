@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CustomerServiceImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">com.ust.app</a> &gt; <a href="index.source.html" class="el_package">com.customerapp.service</a> &gt; <span class="el_source">CustomerServiceImpl.java</span></div><h1>CustomerServiceImpl.java</h1><pre class="source lang-java linenums">package com.customerapp.service;
+import java.util.List;
+import com.customerapp.model.SetCustomer;
+import com.customerapp.repository.CustomerRepo;
+import com.customerapp.repository.CustomerRepoImpl;
+
+<span class="fc" id="L7">public class CustomerServiceImpl implements CustomerService{</span>
+<span class="fc" id="L8">	CustomerRepo repo=new CustomerRepoImpl();</span>
+	@Override
+	public SetCustomer addCustomer(SetCustomer c) {
+		
+		//logic to validate customer data
+<span class="fc" id="L13">		return repo.addCustomer(c);</span>
+	}
+
+	@Override
+	public SetCustomer getCustomerById(int id) {
+		// TODO Auto-generated method stub
+<span class="fc" id="L19">		return repo.getCustomerById(id);</span>
+	}
+
+	@Override
+	public SetCustomer getCustomerByName(String name) {
+		// TODO Auto-generated method stub
+<span class="fc" id="L25">		return repo.getCustomerByName(name);</span>
+	}
+
+	@Override
+	public void deleteCustomer(int id) {
+		// TODO Auto-generated method stub
+<span class="fc" id="L31">		 repo.deleteCustomer(id);</span>
+		
+<span class="fc" id="L33">	}</span>
+
+	@Override
+	public List&lt;SetCustomer&gt; getAllCustomers() {
+		// TODO Auto-generated method stub
+<span class="fc" id="L38">		return repo.getAllCustomers();</span>
+	}
+
+	@Override
+	public SetCustomer searchCustomer(int id) {
+		// TODO Auto-generated method stub
+<span class="nc" id="L44">		return repo.searchCustomer(id);</span>
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

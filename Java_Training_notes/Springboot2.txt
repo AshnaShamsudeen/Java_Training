@@ -1,0 +1,41 @@
+Spring Boot
+-----------
+
+*Spring project
+*production ready stand alone spring-based appn.
+*convension over configuration.
+*focuses on convension over configuration
+
+How can we create a spring boot app?
+------------------------------------
+*create a spring starter project
+*select the dependencies.
+*create the project.
+
+@SpringBootApplication
+Declares a SpringbootAppication and do all the necessary configuration
+@RestController
+Creates a REST API (returns resources[JSON])
+@Controller
+Creates a Controller that returns a view ( a page )
+@RequestMapping
+Maps a method to a request(any type of request)
+@GetMapping
+Maps a method to GET a request
+@PostMapping
+Maps a method to POST a request
+@DeleteMapping
+Maps a method to DELETE a request
+@PutMapping
+Maps a method to PUT a request
+@ResponseStatus
+Used to change the status code of the response
+@RequestBody
+To map he data received from the body of the request to a java object
+@ResponseBody
+Create a REST API  inside a controller  (returns resources( json ) )
+@PathVariable
+To read dynamic
+@Requestparam
+has context menu
+Compose

@@ -1,0 +1,59 @@
+2023-04-26 08:50:54,120 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-26 08:54:01,516 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-26 08:54:02,939 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.stackroute:exercise-bt-collections-arraylist-sortedsearch:1.0.0-SNAPSHOT @ C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\pom.xml.
+2023-04-26 08:54:05,005 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exercise-bt-collections-arraylist-sortedsearch/src/main/java
+2023-04-26 08:54:05,035 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exercise-bt-collections-arraylist-sortedsearch/src/test/java
+2023-04-26 08:54:05,418 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 08:54:05,419 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 08:54:05,422 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 08:54:05,423 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 08:54:06,209 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2023-04-26 08:54:06,729 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 08:54:06,729 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 08:54:06,730 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 08:54:06,730 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 08:54:59,076 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 08:54:59,076 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 08:54:59,078 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 08:54:59,079 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 09:52:19,103 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 09:52:19,104 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 09:52:19,105 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 09:52:19,105 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 15:52:53,200 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-26 17:02:26,353 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:02:26,354 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 17:02:26,356 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:02:26,356 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 17:02:44,439 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:02:44,439 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 17:02:44,440 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:02:44,441 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 17:02:56,486 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:02:56,486 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 17:02:56,487 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:02:56,487 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 17:05:31,684 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:05:31,684 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 17:05:31,685 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:05:31,686 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 17:08:23,070 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:08:23,070 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 17:08:23,072 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:08:23,072 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 17:08:29,583 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:08:29,584 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 17:08:29,585 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:08:29,585 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 17:10:54,088 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:10:54,088 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 17:10:54,089 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:10:54,089 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 17:11:43,168 [Worker-29: Launching com.stackroute.exercises] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:11:43,169 [Worker-29: Launching com.stackroute.exercises] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 17:11:43,172 [Worker-29: Launching com.stackroute.exercises] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:11:43,172 [Worker-29: Launching com.stackroute.exercises] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources
+2023-04-26 17:12:09,656 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:12:09,656 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\main\resources
+2023-04-26 17:12:09,657 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-26 17:12:09,659 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment3\exercise-bt-collections-arraylist-sortedsearch\src\test\resources

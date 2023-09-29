@@ -1,0 +1,216 @@
+Day 6
+------
+
+
+String:immutable
+	*can't be modified
+	*Eg:-
+		String str1="hello";
+		String msg="hello";//will not create another memory to store the msg rather than that "msg" 
+				  //will be refer to "str1" memory location since both have the same value
+				  //this collective memory location is called string pool
+                str.setCharAt(1,"E");//not possible
+		String str1="here you are"//possible
+
+
+
+
+StringBuilder Vs StringBuffer
+------------------------------
+	*Mutable
+	*StringBuffer is thread safe since methods are synchronous
+	*StringBuilder is not thread safe therefore it is faster
+
+How to create StringBuilder?
+
+	StringBuilder name=new StringBuilder("hello");
+
+How to create StringBuilder?
+
+	StringBuffer name=new StringBuffer("welcome");
+
+
+How to reverse a STRING?
+
+
+import java.util.Scanner;
+class StringReverse{
+    public static void main(String []args){
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the string to be reversed");
+        String str=sc.nextLine();
+        
+        
+        //String str="hello world";
+        //StringBuffer revStr= new StringBuffer(str);  //using StringBuffer
+        StringBuilder revStr= new StringBuilder(str); //using StringBuilder
+        revStr.reverse();
+        System.out.println(revStr);
+    }
+}
+
+
+How to replace a string
+
+
+import java.util.Scanner;
+class ReplaceString{
+    public static void main(String []args){
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the orginal string");
+        String str1=sc.nextLine();
+        System.out.println("enter the starting index position");
+        int start=sc.nextInt();
+        System.out.println("enter the end position");
+        int end=sc.nextInt();
+        System.out.println("enter the word to be replaced");
+        String str2=sc.nextLine();
+        //String str1="hello everyone,how are you?";
+        //String str2="folks";
+
+        //StringBuffer revStr= new StringBuffer(str);  
+        StringBuilder repStr1= new StringBuilder(str1);
+        repStr1.replace(start,end,str2);
+        System.out.println(repStr1);
+    }
+}
+
+//str=str.repalce("everyone","folks")
+//in above case modification is not happening.here we are assigning new value to str again
+
+eg:hello everyone,how are you? everyone should complete the task.
+//replaceAll("everyone","folks");
+
+output
+------
+hello folks,how are you?folks should complete the task.
+
+
+
+split()
+___________
+
+eg:str.split(",");
+output==>{"hello folks","how are you ? folks should complete the task"}//split the string with respect to ","
+eg:str.split(" ");
+==>will create an array of string containing all the words in str seperated by space
+
+
+
+trim();
+----------
+remove all trailing spaces(only in the beginning or end .never remove space in between 2 words)
+
+
+Today's topic:-classes,methods and objects
+___________________________________________
+
+class
+	*building block of a oop language
+	*container
+	*block that contains functions and properties/variables
+	*collection of methods
+	*data(fields) + methods
+	*class is user defined data type
+	*dont create multiple classes in a program(not a good practice)
+	*blueprint /design
+eg:
+
+class Employee{
+	int employeeId;
+	String employeeName;
+	String email;
+
+	public void printEmployee(){
+	System.out.println("ID: "+employeeId);
+
+	System.out.println("Name: "+employeeNmae);
+
+	System.out.println("Email: "+email);
+
+
+}}
+class EmployeeMain{
+public static void main (String[]args){
+Employee e1 =new Employee();
+e1.employeeId=101;
+e1.employeeName="Ram";
+e1.email="ram@gmail.com";
+Employee e2 =new Employee();
+e2.employeeId=101;
+e2.employeeName="Ram";
+e2.email="ram@gmail.com";
+e1.printEmployee();
+e2.printEmployee();}}
+
+
+
+
+
+
+	syntax:
+		
+methods
+	*Function are called methods in oop(can avoid writing same code again and again)
+	*a function can't be defined inside another fn.it should be inside a class.
+	*what it writes? and what it return?
+	*a function can return only 1 value in java.
+	-->self contained block of statements.
+	sybtax:
+		returnType methodName(argument name)
+
+
+
+object:
+	variable of type class
+	objects have to be created dyanamically
+ 
+ 	i.e,Employee e1 =new Employee();//int ,float etc. are premitive data type which can be simply int x;
+					//object is reference data type
+					*dyanamically created objects will be stored in heap
+					//java has 2 memories 1.stack...2.Heap-->primitive data type stores in stack only.
+					*until and unless we use new it will never get work.
+
+
+
+Eg:-class-->car
+ properties-->reg.no.,model,color
+ method-->start(),brake()
+car bmw=new car();
+car tata=new car();-->bmw and tata are objects
+		
+
+static variables are also called
+static fiels should be assessed  using class_name.variable name
+static variable doesn't need any object to call.
+main method is itself static.
+
+if a method is not static we have to create a object to run that method.
+
+
+costructor:
+................
+special type of method used for initializing the fields/properties of a class
+*it has the same name as the class
+*it invokes automatically when we create an object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

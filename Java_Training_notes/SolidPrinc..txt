@@ -1,0 +1,77 @@
+SOLID Priciple
+--------------
+S-Single responsibility principle
+O-open close principle principle
+L-Liskov substitution principle 
+I-Interface segrigation principle 
+D-Dependancy Inversion principle
+
+
+Single responsibility principle
+-------------------------------
+A class should always have one responsibility and there should only be a single reason to change it
+eg:In our Customer Management App we divide our classes into xple layers and every class has a single responsibilty
+eg:CustomerRepository class does  Database related task only and CustomerService class does service and business 
+related tasks only
+
+open close principle principle
+----------------------------------
+*open for extension & closed for modification.
+don't do modifications in a class under testing or after testing instead of that extend it.
+eg:-Currenly we are storing the customer to HashMap,if we want to change our storage to a database then we should not 
+modify the existing class rather we should extend a new class and write code to database operation.
+
+Liskov substitution principle
+------------------------------
+*super class objects can be replaced with sibclass objects.ie,subclasses should be substitutable for their base classes.
+eg:List objects with ArrayList/Linked list
+example:the sort method in Collections class requires a List and it can be substituted by ArrayList,LinkedList or any other subclasses of list.
+Collections.sort(List items)
+
+Interface segrigation principle 
+-------------------------------
+interface Printer{
+	void print();
+}
+interface Scanner{
+	void scan();
+}
+class HPPrinter implements Printer,Scanner{
+	public void print(){
+	}
+	public void scan(){
+	}
+}
+class CanonPrinter implements Printer{
+	public void print(){
+	
+	}
+	
+}
+
+
+
+Dependancy Inversion principle
+------------------------------
+our code should depend upon interface or abstract classes instead of concrete classes and fn.
+*code should be dependent on specification not on the implementation.
+
+
+How to insert a row in a database using JDBC
+---------------------------------------------
+
+STEPS:
+------
+1.Add the database driver
+2.Create a connection
+3.Create a statement
+4.Execute Statement
+5.Display output
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+package exam;
+import java.util.Scanner;
+public class Q1 {
+	
+	
+
+	    private static int countVowels(String str) {
+	        int count=0;
+	        str=str.toLowerCase();
+	        char[] ch=str.toCharArray();
+	        for(int i=0;i<ch.length;i++) {
+	    if(ch[i]=='a'|| ch[i] =='e'|| ch[i]=='i'|| ch[i]=='o'|| ch[i]=='u') {
+	                count++;
+	            }
+	            }
+	        return count;
+	    }
+	    private static int countConsonants(String str) {
+	        int count=0;
+	        str=str.toLowerCase();
+	        char[] ch=str.toCharArray();
+	        for(int i=0;i<ch.length;i++) {
+	    if((ch[i]!='a'|| ch[i] !='e'|| ch[i]!='i'|| ch[i]!='o'|| ch[i]!='u') && (ch[i]>'b'&&ch[i]<'z')){
+	                count++;
+	            }
+	            }
+	        return count;
+	    }
+	    private static int countSpecialChars(String str) {
+	        int count=0;
+	        str=str.toLowerCase();
+	        char[] ch=str.toCharArray();
+	        for(int i=0;i<ch.length;i++) {
+	    if(ch[i]=='@'|| ch[i] =='#'|| ch[i]=='!'|| ch[i]=='$'|| ch[i]=='%' || ch[i]=='&' || ch[i]=='*') {
+	                count++;
+	            }
+	            }
+	        return count;
+	    }
+
+	    public static void main(String[] args) {
+	        Scanner sc=new Scanner(System.in);
+
+	        System.out.println("Enter the String");
+	        String str=sc.next();
+	        System.out.println("Number of vowels :"+countVowels(str)
+	                + "\n"+"Number of Consonant:"+countConsonants(str)+"\n"+
+	                "Number of Special characters:"+countSpecialChars(str));
+	    }
+	 
+	}
+
+
+
+

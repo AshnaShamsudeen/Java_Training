@@ -1,0 +1,114 @@
+bDay 10
+---------------
+
+
+OOP Features
+..................
+a)Encapsulation:wrapping up of datas and functions/methods together.
+  --------------
+eg:class
+
+b)Abstraction:-hiding the implementation/un necessary inf. and showing only the relevant information.
+ ------------
+eg:Remote,UI
+
+c)Polymorphism:-many forms
+	1.static/compile time polymorphism
+		:-Method overloading
+			Same method name but diff.set of arguments.
+			return types can be anything
+	2.dynamic/run time polymorphism
+
+
+d)Inheritance:-one class inheritting the properties of another class
+
+
+eg:
+
+Car                              EV extends Car            FuelEngine extends Car
+	model                    batteryCapacity            engine_cc
+	regNo                     charge()                    refillFuel()
+	color
+
+	start()
+	brake()
+
+
+
+*Parent class/super class
+*child class/derived class
+*extends:-extend the properties and method of one class to another
+*we can only inherit public but not private
+*outside the package, protected can only access by child class.but if it is under the same package everybody can access
+
+fuelEngine mycar=(fuelEngine) new car--->//valid to call the parent using child-->typecasting
+fuelEngine myCar=new car  //invalid
+in inheritance class we can declare the method as public,private,default but not private
+
+
+
+
+
+
+car myCar=new ev();// here we can't access the EV methods directly
+EV myCar= new EV();//here it can be accessed
+
+
+
+
+
+enum:-when you have certain scenario like to restrict the user from putting wrong values like funday inside a day etc.
+eg:
+	enum Day{
+		SUNDAY,MONDAY.....SATURDAY}
+
+		day=Day.SUNDAT//valid
+		day=Day.FUNDAY//invalid
+wrapper class:-
+
+
+
+eg:;Integer.parseInt("15");//parseInt method is static since we don't have to create object for this
+ then,
+
+	i=15//to covert string to int
+
+
+
+
+Method overloading:all methods should be in the same class
+Method Overloading:
+
+
+to call both method which is from the main class and base call--->we can use keyword "super"
+if we want to all the method from super class we use super keyword.
+super and this keyword can't be write inside static method...because both denote objects and static method has no 
+connection with objects.
+
+
+
+super should be the the first line inside your constructor of subclass while calling.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

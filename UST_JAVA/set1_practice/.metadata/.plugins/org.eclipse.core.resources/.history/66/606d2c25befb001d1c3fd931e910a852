@@ -1,0 +1,20 @@
+package trial;
+
+import java.util.Scanner;
+
+public class pallindrome {
+
+	public static void main(String[] args) {
+		String str;
+ Scanner sc= new Scanner(System.in);
+ System.out.print("Enter a number ");
+ str=sc.nextLine();
+ StringBuilder str1=new StringBuilder(str);
+str2=(str1.reverse());
+if(str1.equalsIgnoreCase(str2)) {
+	
+}
+
+	}
+
+}

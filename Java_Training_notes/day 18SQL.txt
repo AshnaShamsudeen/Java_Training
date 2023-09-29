@@ -1,0 +1,18 @@
+Keys in SQL
+-----------
+*unique key-->key which are unique
+*primary key-->Unique
+	    -->can't be null.
+*Alternate keys-->unique keys other than primary key.
+*Foreign key-->if you try to add or do something where the primary key is not valid then it will return error
+*joins
+------
+inner join:select all common data from tables/ a intersectiom b
+outer join:
+full join:
+left join:
+right join:
+
+
+
+

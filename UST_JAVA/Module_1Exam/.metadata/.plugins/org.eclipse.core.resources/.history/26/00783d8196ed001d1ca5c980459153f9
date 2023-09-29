@@ -1,0 +1,46 @@
+package exam;
+
+public class Question2 {
+	private int productCount;
+	private int productSellingPrice;
+	private int ProductBCount;
+	private int ProductSellingPrice;
+	public Question2(int productCount, int productSellingPrice, int productBCount, int productSellingPrice2) {
+		super();
+		this.productCount = productCount;
+		this.productSellingPrice = productSellingPrice;
+		ProductBCount = productBCount;
+		ProductSellingPrice = productSellingPrice2;
+	}
+	public int getProductCount() {
+		return productCount;
+	}
+	public void setProductCount(int productCount) {
+		this.productCount = productCount;
+	}
+	public int getProductSellingPrice() {
+		return productSellingPrice;
+	}
+	public void setProductSellingPrice(int productSellingPrice) {
+		this.productSellingPrice = productSellingPrice;
+	}
+	public int getProductBCount() {
+		return ProductBCount;
+	}
+	public void setProductBCount(int productBCount) {
+		ProductBCount = productBCount;
+	}
+	public int getProductSellingPrice1() {
+		return ProductSellingPrice;
+	}
+	public void setProductSellingPrice1(int productSellingPrice) {
+		ProductSellingPrice = productSellingPrice;
+	}
+	@Override
+	public String toString() {
+		return "Question2 [productCount=" + productCount + ", productSellingPrice=" + productSellingPrice
+				+ ", ProductBCount=" + ProductBCount + ", ProductSellingPrice=" + ProductSellingPrice + "]";
+	}
+	
+
+}

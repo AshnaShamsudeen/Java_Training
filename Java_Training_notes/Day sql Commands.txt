@@ -1,0 +1,134 @@
+Database
+--------
+*Organized collection of data.
+*Provides an easy way to fetch the data.
+
+DBMS:-software with which we can manage the databases.
+
+1.SQL(RDBMS)
+...................
+EG:MySQL,ORACLE,MSSQL,Postgres
+*Structured Query Language
+
+2.NoSQL
+...................
+EG:MorgoDB,AWS Dynamo DB
+
+ER Model/Entity Relationship Diagram
+-------------------------------------
+*Entity relationship diagram helps to know the relations b/w diff.entity
+
+*entity:
+	It is an object of interest.It have some attributes
+	*Every entity represent a table in DB.
+		eg:Students;which has name,id etc. as attributes. 
+*SQL doesn't support the concept of multivalued attribute
+*Weak entity which has no primary key
+
+*Attributes:
+	*Property of entity called attributes
+*Relationship:
+	*One to One,One to many,many to one,One or many,zero or Many
+	*Defines the relationship b/w diff.entities
+
+eg:
+Trainee:-->Address,name,phone,Tid
+	     |
+	    (n)
+             |
+           Teach(many to one)
+	     |
+	    (1)
+
+Trainer:-->Address,name,phone,Technology,Tid
+
+
+Types of SQLM commands
+-------------------------
+
+-DDL(DATA DEFINITION LANGUAGE)
+	:-CREATE:creating new table or DB
+	:-ALTER:changing the structure of data
+	:-DROP:delete the table
+	:-TRUNCATE:clear all data
+
+-DML(DATA MANUPILATION LANGUAGE)
+	:INSERT
+	:UPDATE
+	:DELETE
+
+-DQL(DATA QUERY LANGUAGE)
+	:SELECT
+
+-DCL
+-TCL
+
+
+-avg
+-sum
+-count
+-max
+-min
+
+
+group by
+when you are writing a group by fn.,we can only select the aggregation methods
+	
+	
+where is applied before group by
+*having is used to perform fn.'s after group by
+
+-Date functions
+--Wildcard(like)
+--joins
+
+
+
+
+DCL(DATA CONTROL LANGUAGE)
+--------------------------
+
+-GRANT
+--REVOKE
+
+TCL(TRANSITION CONTROL LANGUAGE)
+--------------------------------
+--COMMIT(if you make any changes ,you can use commit to saver it.)
+	:-SET AUTOCOMMIT =FALSE;
+	
+--SAVEPOINT()
+SAVEPOINT P1;
+DELETE FROM EMPLOYEE WHERE DEPT=40;
+
+--ROLLBACK()
+*UN COMMITTED CHANGES WE CAN ROLL BACK.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

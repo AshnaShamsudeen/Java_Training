@@ -1,0 +1,294 @@
+ import toast from 'react-hot-toast';
+ 
+  
+ 
+ const alert = (msg) => {
+ 
+   toast.error(msg, {position: 'top-right'})
+ 
+ }
+ 
+  
+ 
+  
+ 
+ let team = {
+ 
+   title: "Mumbai Indians",
+ 
+   players: [],
+ 
+ };
+ 
+  
+ 
+ export const getTeam = () => {
+ 
+   return team;
+ 
+ };
+ 
+  
+ 
+ export const setTeam = (tm) => {
+ 
+   team = tm;
+ 
+ };
+ 
+  
+ 
+ /*
+ 
+     Should edit a player of given id to nwPlayer
+ 
+   */
+ 
+ export const editTeamPlayer = (id, nwPlayer) => {
+ 
+
+ 
+ };
+ 
+ /*
+ 
+     Should add a player to team, if the player
+ 
+     already exist alert "This Player already exist in your team !!"
+ 
+   */
+ 
+ export const addTeamPlayer = (player) => {
+ 
+ 
+ 
+ };
+ 
+  
+ 
+ /*
+ 
+     Should delete a player from team
+ 
+   */
+ 
+ export const deleteTeamPlayer = (id) => {
+ 
+ 
+ 
+ };
+ 
+  
+ 
+ /*
+ 
+     Returns error messages if a team does not have exactly 2 batsmen
+ 
+     2 bowlers and 1 wicket-keeper
+ 
+   */
+ 
+ export const getStatus = () => {
+ 
+ 
+ 
+ 
+ };
+ 
+  
+ 
+
+ 
+ import { playersData } from "./PlayersData";
+ 
+  
+ 
+ const allPlayers = playersData;
+ 
+  
+ 
+  
+ 
+ export const getPlayers = () => {
+ 
+     
+ 
+ };
+ 
+  
+ 
+ export const generateId = () => {
+
+ 
+ };
+ 
+  
+ 
+ /*
+ 
+     Returns the player for a given player id
+ 
+   */
+ 
+ export const getPlayer = (id) => {
+ 
+    
+ 
+ };
+ 
+  
+ 
+ /*
+ 
+     Adds the player to player list
+ 
+ */
+ 
+ export const addPlayer = (player) => {
+ 
+
+ 
+ };
+ 
+  
+ 
+ /*
+ 
+     Updates the player given the index and new changed values
+ 
+ */
+ 
+ export const updatePlayer = (index, newPlayer) => {
+ 
+ 
+ 
+ };
+ 
+  
+ 
+ /*
+ 
+     Deletes a player from player list
+ 
+ */
+ 
+ export const deletePlayer = (index) => {
+ 
+    
+ };
+ 
+  
+ 
+ export const getIndexOfPlayer = (id) => {
+ 
+     
+ 
+ }
+ 
+  
+ 
+ 
+ 
+ import axios from "axios";
+ 
+  
+ 
+ export const getSalesData = async () => {
+ 
+   let { data } = await axios.get(`/sales.json`);
+ 
+   return data;
+ 
+ };
+ 
+  
+ 
+ export const calculateTotalSales = (sales) => {
+
+ 
+ };
+ 
+  
+ 
+ export const calculateTotalCashSale = (sales) => {
+ 
+
+ };
+ 
+  
+ 
+ export const calculateTotalCreditSale = (sales) => {
+
+ };
+ 
+  
+ 
+ export const calculateBuyerWithMostSale = (sales) => {
+ 
+  
+ 
+ };
+ 
+  
+ 
+
+ 
+ import React from "react";
+ 
+  
+ 
+ import "./Dashboard.css";
+ 
+ 
+ 
+ function Dashboard() {
+ 
+   return (
+ 
+     <div className="dashboard">
+ 
+       <div className="card">
+ 
+         <h2>Total Sales</h2>
+ 
+         <p>{calculateTotalSales}</p>
+ 
+       </div>
+ 
+       <div className="card">
+ 
+         <h2>Total Cash Sales</h2>
+ 
+         <p>{calculateTotalCashSale}</p>
+ 
+       </div>
+ 
+       <div className="card">
+ 
+         <h2>Total Credit Sales</h2>
+ 
+         <p>{calculateTotalCreditSale}</p>
+ 
+       </div>
+ 
+       <div className="card">
+ 
+         <h2>Buyer with Most Sales</h2>
+ 
+         <p>{calculateBuyerWithMostSale.buyerName}</p>
+ 
+         <p>{calculateBuyerWithMostSale.saleTotal}</p>
+ 
+       </div>
+ 
+     </div>
+ 
+   );
+ 
+ }
+ 
+  
+ 
+ export default Dashboard;
+ 
+  

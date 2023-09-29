@@ -1,0 +1,13 @@
+1.Solved the problem in 2 ways using python as well as Java
+2.Completed all the requirements including multi city
+3.Added additional features in front end and in UI design
+4.System will provide the optimum response in minimum time.
+5.System will sort the ouput on the basis of less time duration
+
+
+1. Solved the problem in two ways, using Python as well as Java.
+2. Fulfilled all requirements, including the multi-city requirement
+3. Improved the UI design and front end by adding more functions.
+4. The system will respond in the best possible way in the shortest period of time.
+5. The system will sort the obtained flight information according to travel duration.
+6. All the available flights in the system can be viewed.

@@ -1,0 +1,113 @@
+//Shortest string
+
+
+import java.util.Scanner;
+class Q2{
+    
+    public static void main(String []args){
+        Scanner scan= new Scanner(System.in);
+	System.out.println("enter the number of words:");
+        int size=scan.nextInt();
+       String result=" ";
+    String[] strings= new String[size];
+    Scanner sc= new Scanner(System.in);
+	System.out.println("enter the words");
+    for(int index=0;index<strings.length;index++)
+    { strings[index]=sc.next()+sc.nextLine();}
+    result=strings[0];
+     for(int i=0;i<(strings.length-1);i++)
+        {
+        
+         if(result.length() >=strings[i].length())
+    {
+    result=strings[i];
+    }
+         }
+    System.out.println("the shortest element is " + result);
+    } }
+
+
+
+
+//Hacker rank 1st qn
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Print output to STDOUT. Your class should be named Solution. */
+        System.out.println("Hello, World.");
+        System.out.println("Hello, Java.");
+    }
+}
+
+
+
+//Hacker rank 2nd qn
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        // Complete this line
+        // Complete this line
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        // Complete this line
+        // Complete this line
+    }
+}
+
+
+
+
+//hacker rank 3rd qn
+
+
+
+
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+
+
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int N = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+if(N%2!=0 && N>=1)
+    {
+        System.out.println("Weird");
+    }
+else  {
+    if(N>=2 && N<6)
+    {
+        System.out.println("Not Weird");
+    }
+    else if(N>=6 && N<21)
+    {
+        System.out.println("Weird");
+    }
+    else if(N>20 && N<=100)
+    {
+        System.out.println("Not Weird");
+    }
+}
+        scanner.close();
+    }
+}
+

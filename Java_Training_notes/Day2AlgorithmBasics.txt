@@ -1,0 +1,39 @@
+Algorithm1 (Accept 5 numbers,Print sum and average)
+------------
+
+Step 1.Start
+Step 2.Input n1,n2,n3,n4,n5 from the user
+Step 3.Sum=n1+n2+n3+n4+n5
+Step 4.Avg=sum/5
+Step 5.Print Sum and Average
+Step 6.End
+----------------------------------------
+
+How to read input from user?
+..................................
+
+1.import Scanner from util package
+import java.util.Scanner;
+
+2.Create an object of scanner
+
+Scanner sc= new Scanner();
+	System.out.println("Input 2 numbers:");
+3.
+(a)
+To read integer:
+int num1= sc.nextInt();
+
+(b). to read float:
+int num1= sc.nextFloat();
+
+(c).to read double:
+int num1= sc.nextDouble();
+
+(d).to read String:
+int num1= sc.nextString();
+
+
+7.to read string
+Scanner scan= new Scanner(System.in);
+Int variable name=scan nextLine();

@@ -1,0 +1,44 @@
+package exam;
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the string");
+		String input=sc.nextLine();
+		int result=(Question1.countVowels(input));
+		System.out.println("the count of vowels in the given string is "+result);
+		int result2=(Question1.countConsonants(input));
+		System.out.println("the count of consonants in the given string is "+result2);
+		int result3=(Question1.countSpecialChars(input));
+		System.out.println("the count of special character in the given string is "+result3);
+		char arr[]=input.toCharArray();
+		for(char every:arr) {
+			char m=every;
+		
+		boolean x=(Question1.isVowel(m));
+		if(x==true) {
+			System.out.println("there are vowels in the string");
+		}
+		else {
+			System.out.println("there are  no vowels in the string");
+		}
+//		for(char cons:arr) {
+		boolean y=(Question1.isConsonant(m));
+			if(x==true) {
+				System.out.println("there are consonants in the string");
+			}
+			else {
+				System.out.println("there are no consonants in the string");
+			}
+			boolean y=(Question1.isSpecialChar(m));
+			if(x==true) {
+				System.out.println("there are consonants in the string");
+			}
+			else {
+				System.out.println("there are no consonants in the string");
+			}
+
+	
+
+	}}}

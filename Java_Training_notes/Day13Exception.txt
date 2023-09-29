@@ -1,0 +1,45 @@
+Day 13
+
+
+
+Exception Handling
+----------------------
+1.Syntax Error/Compile time error
+2.Run time Error-->Exception error(*an error that occur during runTime)
+	Eg:null pointer exception
+3.Logical Error
+*when ecxeption program stops at that point.
+Exception handling
+------------------
+how to recover from a exception or how to deal with the  ecxeption
+
+*in every scenario we can't avoid ecxeption simply.so java provides:
+		1.try-write the code that can lead to some exception
+ 		2.catch:-write what to be done if the exception occured
+ 		3.finally:-a code block to be executed irrespective of whether or not the exception occured.
+
+EXCEPTION ARE OF TWO TYPES
+---------------------------
+1.checked exception/Compile time exception
+certain scenario writing exception handling is compulsory ie,we must have to write try-catch
+*which are checked at compile time
+2.unchecked Exception/Run time exception
+which are checked at run time
+
+
+All checked exception extends the exception class directl
+
+eg:-FileNotFoundException
+SQLException,ioException,ClassNotFoundException
+All unchecked exception extends the exception  run time class 
+
+eg:
+ArithemeticException,ArrayIndexOutOfBoundException,NullPointerException,InputMismatchException,NumberFormatException
+
+
+How to catch xple exception:
+1 try+ xple catch staement
+
+
+
+

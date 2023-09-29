@@ -1,0 +1,15 @@
+package exam;
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the string");
+		String input=sc.nextLine();
+		int result=(Question1.countVowels(input));
+		System.out.println("the count of vowels in the given string is "+result);
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,4 @@
+Hello everyone.
+How are you?
+Its fun to read data from a file.
+

@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+com.ust.app,com.customerapp.repository,CustomerRepoImpl,5,58,2,2,3,11,3,6,1,6
+com.ust.app,com.customerapp.service,CustomerServiceImpl,5,32,0,0,1,8,1,6,1,6
+com.ust.app,com.customerapp.model,SetCustomer,123,23,23,1,33,9,19,4,7,4
+com.ust.app,com.customerapp.ui,CustomerAppUi,157,0,9,0,54,0,15,0,8,0

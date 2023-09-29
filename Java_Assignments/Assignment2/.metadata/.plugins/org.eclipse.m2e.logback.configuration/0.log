@@ -1,0 +1,64 @@
+2023-04-19 17:43:35,458 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-19 18:07:36,028 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-20 11:23:32,087 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-26 17:50:15,435 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-29 09:30:47,120 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-29 09:34:52,698 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-29 09:34:54,764 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.jar
+2023-04-29 09:34:55,052 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.jar
+2023-04-29 09:34:55,708 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.stackroute:exercise-bt-loops-foreach:1.0.0-SNAPSHOT @ C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\pom.xml.
+2023-04-29 09:34:56,158 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.pom
+2023-04-29 09:34:56,312 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.pom
+2023-04-29 09:34:56,423 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M7/surefire-3.0.0-M7.pom
+2023-04-29 09:34:56,611 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M7/surefire-3.0.0-M7.pom
+2023-04-29 09:34:56,754 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/36/maven-parent-36.pom
+2023-04-29 09:34:56,966 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/36/maven-parent-36.pom
+2023-04-29 09:34:57,118 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/26/apache-26.pom
+2023-04-29 09:34:57,241 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/26/apache-26.pom
+2023-04-29 09:34:57,892 [Worker-1: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exercise-bt-loops-foreach/src/main/java
+2023-04-29 09:34:57,899 [Worker-1: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exercise-bt-loops-foreach/src/test/java
+2023-04-29 09:34:58,052 [Worker-1: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2023-04-29 09:34:58,287 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:34:58,288 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:34:58,291 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:34:58,291 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources
+2023-04-29 09:36:26,407 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:36:26,407 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:36:26,409 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:36:26,409 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources
+2023-04-29 09:36:30,560 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:36:30,561 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:36:30,562 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:36:30,562 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources
+2023-04-29 09:37:16,439 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:37:16,439 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:37:16,440 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:37:16,440 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources
+2023-04-29 09:37:36,746 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:37:36,747 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:37:36,748 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:37:36,748 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources
+2023-04-29 09:37:47,007 [Worker-10: Launching java] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:37:47,007 [Worker-10: Launching java] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:37:47,008 [Worker-10: Launching java] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:37:47,008 [Worker-10: Launching java] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources
+2023-04-29 09:38:14,062 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:38:14,062 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:38:14,063 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:38:14,063 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources
+2023-04-29 09:38:17,603 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:38:17,603 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:38:17,604 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:38:17,604 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources
+2023-04-29 09:38:51,862 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:38:51,862 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:38:51,863 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:38:51,863 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources
+2023-04-29 09:39:01,856 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:39:01,856 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:39:01,856 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:39:01,856 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources
+2023-04-29 09:39:14,192 [Worker-3: Launching java] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:39:14,192 [Worker-3: Launching java] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\main\resources
+2023-04-29 09:39:14,192 [Worker-3: Launching java] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-29 09:39:14,192 [Worker-3: Launching java] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment2\exercise-bt-loops-foreach\src\test\resources

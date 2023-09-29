@@ -1,0 +1,18 @@
+Maven
+-----
+why maven?
+*build tool
+*manages dependency
+*standard project structure
+*supports plugins
+file-->new-->other-->maven-->maven project-->next-->(quickstart 1.1)-->next-->grpup id(package name)-->artificial id
+(any name)-->xxx--->finish
+
+C:/users/username/.m2
+
+
+Code Quality Check
+------------------
+
+
+SonarQube

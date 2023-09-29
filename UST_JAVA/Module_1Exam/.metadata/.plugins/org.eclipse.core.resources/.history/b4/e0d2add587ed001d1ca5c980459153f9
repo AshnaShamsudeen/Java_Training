@@ -1,0 +1,41 @@
+package exam;
+
+
+public class Question1 {
+	public static int countVowels(String input) {
+		int vowels=0;
+		while(input.isEmpty()) {
+		if(input.contains("a")||input.contains("e")||input.contains("i")
+				||input.contains
+				("o")||input.contains("u")) {
+			vowels++;}}
+			return vowels;
+		}
+	
+	
+//	public static int countConstants(String input) {
+//		int consonant=0;
+//		
+//		
+//	}
+	public static int countSpecialChars(String input) {
+		int special=0;
+		if(input.equalsIgnoreCase("@")||input.equalsIgnoreCase("#")||input.equalsIgnoreCase("$"))
+				 {
+			special++;}
+			return special;
+		}
+		
+//	
+//	public static boolean isVowel(char arr ) {
+//		
+//	}
+//	public static boolean isConsonant(char arr ) {
+//
+//		
+//	}
+//	public static boolean isSpecialChar(char arr ) {
+//	
+//	}
+
+}

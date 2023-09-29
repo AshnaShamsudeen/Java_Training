@@ -1,0 +1,105 @@
+				WEB APPLICATION
+                               -----------------
+*HTML - hyper text markup language. To create the structure of the webpages.
+*CSS - Cascading Side Sheet - For styling the webpages
+*Boot Strap - use for responsive design.
+*JavaScript - To add functionality.
+*React - JavaScript library for printing SPA(Single Page Application) client app.
+ 
+
+
+HTML basics
+----------
+*HTML tags(elements) are of 2 types
+-container tag
+:-conatains both opening and closing tags
+*eg:h1,p,html,body
+-empty tag
+:-tags which doesn't have any closing tags
+*eg:br,hr,img,input
+
+##some important tags
+-<p></p>-paragraph
+-<div></div>-division
+-h1 to h6 are headingd
+<hr/>-horizontal line
+<br/>-line break
+
+
+*HTML Lists
+-----------
+*2 types
+	-unordered list
+	-ordered list
+-Additional type
+	-description list
+		<dd>-data description
+		<dt>-data tab
+
+
+
+Tables
+-------
+2 parts
+<thead>-table headings will come under this tag
+	<tr></tr>
+		:-to specify the row
+	<th></th>-we use this tag to write the teadings
+<tbody>-table body part will come under this
+	<tr></tr>- table row
+	<td></td>-table data
+		:-datas in the row will come inside this
+
+
+HTML text formatting
+---------------------
+<i>,<strong>,<b>,<>
+
+HTML links
+----------
+
+
+
+
+iNLINE AND BLOCK ELEMENTS
+-----------------------------
+BLOCK-DIV,P,H1....H6
+Inline-span,
+
+
+
+HTML FORM
+---------
+
+
+CSS(Cascading Style Sheet
+--------------------------
+How to use CSS?
+*THERE ARE 3 WAYS.
+1.Inline CSS
+2.Internal CSS
+3.External CSS
+
+CSS Box Mode
+----------
+
+HTML 5 NEW TAGS(html 5)
+<nav>
+<footer>
+<main>
+<section>
+<article>
+<aside>
+
+
+CSS positioning
+----------------
+static(default)
+fixed
+relative
+absolute
+sticky
+
+
+
+

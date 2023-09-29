@@ -1,0 +1,75 @@
+package exam;
+
+
+public class Question1 {
+	
+	public static int countVowels(String input) {
+		int vowels=0;
+		char ch[]= input.toCharArray();
+		for(char every:ch) {
+			if(every=='a'||every=='e'||every=='i'||every=='o'||every=='u'||every=='A'||every=='E'||every=='I'
+				||every=='O'||every=='U') {
+			vowels++;}}
+			return vowels;
+		}
+	
+	
+	public static int countConsonants(String input) {
+		int consonant=0;
+		char ch[]= input.toCharArray();
+		for(char every:ch) {
+			if(every!='a'||every!='e'||every!='i'||every!='o'||every!='u'||every!='A'||every!='E'||every!='I'
+				||every!='O'||every!='U') {
+				consonant++;}
+			}
+		return consonant;
+		
+		
+	}
+	public static int countSpecialChars(String input) {
+		int special=0;
+		char ch[]= input.toCharArray();
+		for(char every:ch)
+		if(every=='@'||every=='$'||every=='#')
+				 {
+			special++;}
+			return special;
+		}
+		
+	
+	public static boolean isVowel(char arr ) {
+		if(arr=='a'||arr=='e'||arr=='i'||arr=='o'||arr=='u'||arr=='A'||arr=='E'||arr=='I'
+				||arr=='O'||arr=='U') {
+			return true;
+		}
+		else {
+			return false;
+		}
+		
+		
+		
+	}
+	public static boolean isConsonant(char arr ) {
+		if(arr!='a'||arr!='e'||arr!='i'||arr!='o'||arr!='u'||arr!='A'||arr!='E'||arr!='I'
+				||arr!='O'||arr!='U') {
+			return true;
+		}
+		else {
+			return false;
+		}
+		
+	}
+	public static boolean isSpecialChar(char arr ) {
+		if(arr=='@'||arr=='$'||arr=='#') {
+			return true;
+		}
+		else {
+			return false;
+		}
+			
+		}
+			 
+	
+	}
+
+

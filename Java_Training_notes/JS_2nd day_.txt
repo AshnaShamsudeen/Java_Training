@@ -1,0 +1,2 @@
+*button means we are calling a js fn.
+*onsubmit directly submit

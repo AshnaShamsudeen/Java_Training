@@ -1,0 +1,6 @@
+com\customerapp\service\CustomerService.class
+com\customerapp\repository\CustomerRepoImpl.class
+com\customerapp\repository\CustomerRepo.class
+com\customerapp\ui\CustomerAppUi.class
+com\customerapp\model\SetCustomer.class
+com\customerapp\service\CustomerServiceImpl.class

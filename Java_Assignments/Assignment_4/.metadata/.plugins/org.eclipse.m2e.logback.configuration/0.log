@@ -1,0 +1,18 @@
+2023-05-03 10:49:08,928 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-03 10:50:18,381 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.stackroute:exercise-bt-exceptionhandling-exception:1.0.0-SNAPSHOT @ C:\UST_JAVA\Assignment_4\exercise-bt-exceptionhandling-exception\pom.xml.
+2023-05-03 10:50:36,385 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-03 10:50:36,385 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment_4\exercise-bt-exceptionhandling-exception\src\main\resources
+2023-05-03 10:50:36,388 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-03 10:50:36,388 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment_4\exercise-bt-exceptionhandling-exception\src\test\resources
+2023-05-03 10:52:45,273 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-03 10:52:45,273 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment_4\exercise-bt-exceptionhandling-exception\src\main\resources
+2023-05-03 10:52:45,274 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-03 10:52:45,275 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment_4\exercise-bt-exceptionhandling-exception\src\test\resources
+2023-05-03 11:03:24,264 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-03 11:03:24,264 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment_4\exercise-bt-exceptionhandling-exception\src\main\resources
+2023-05-03 11:03:24,265 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-03 11:03:24,265 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment_4\exercise-bt-exceptionhandling-exception\src\test\resources
+2023-05-03 11:03:42,049 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-03 11:03:42,049 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment_4\exercise-bt-exceptionhandling-exception\src\main\resources
+2023-05-03 11:03:42,051 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-03 11:03:42,051 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UST_JAVA\Assignment_4\exercise-bt-exceptionhandling-exception\src\test\resources

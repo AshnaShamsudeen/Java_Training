@@ -1,0 +1,22 @@
+jdk:11 or 17...java development key
+git 
+ide----(Eclipse)\ Spring tools
+vs code
+node JS
+Postman
+
+-------------
+TODAY
+--------------
+
+WRITE AND COMPILE JAVA 
+
+
+
+--------------
+TOMORROW
+---------------
+1.VARIABLES AND DATA TYPES
+
+
+

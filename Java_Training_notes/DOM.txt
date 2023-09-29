@@ -1,0 +1,51 @@
+DOM MANIPULATION
+------------------
+Document Object Model
+
+*inner html is for container text.
+eg:<p></p>
+*value is for text other than container text.
+eg:<input>
+
+*don't use function keyword,let,constant inside a class
+
+ARROW fUNCTION
+----------------
+
+*similar to lamda fn.
+*we can reduce the code.
+*no need to use return
+*can use where we are combining modern fn with arrays.
+
+CALLBACK
+````````
+PASSING A FN.TO ANOTHER FUNCTION.
+*A(B)
+	:A CAN CALL B WHENEVER IT WANTS.
+
+
+PROMISE
+-------
+*has 2 methods
+:-can either Reject or Resolve(GET REJECTED OR RESOLVED)
+Stages:-PENDING
+	FULFILLED
+	REJECTED
+*uotput of an asynchronous operation
+*if you have to check something we can use then
+*inside catch we can mention the aftereffect of then.
+*things inside finally will execute irrespective of then and catch
+*concept similar to error handling in java
+
+
+
+Async and Await
+---------------
+
+*if you write async(asynchronous) in front of any fn.then it will return some promise.
+eg:-
+	const callMe=async function(){
+	........................
+	}
+
+*await =>you are writing for an async fn. to get completed(resolved/rejected)

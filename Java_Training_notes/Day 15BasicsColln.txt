@@ -1,0 +1,29 @@
+Utility of equals() method:-
+equals method :checks for the equality
+*if  2 things are equal then they should have the same hash code
+hash code:whenever we work 
+
+
+in tree set all the elements is sorted by default
+LinkedHasSet follows the order of insertion
+set is always unique
+
+How to sort a collection?
+-------------------------
+Collections.sort(list)
+*Collections is a class 
+ mbcz
+How to sort a list of customer?
+-------------------------------
+
+
+
+
+Layered Architecture
+---------------------
+*we divide different classes an interfaces as per their purpose.
+Layers in a software package:-
+	1.ui layer:-to interact with the user.
+	2.buisiness layer/service layer:-
+	3.repository layer/DAO layer/Persistance layer:-
+	4.model/entity layer

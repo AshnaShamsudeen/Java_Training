@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1681817743387_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=exercise-bt-oops-inheritance-polymorphism/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1681817743399_1" label="Java Test Sources" name="Java Test Sources">
+<item elementID="=exercise-bt-oops-inheritance-polymorphism/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1681817745801_2" label="Window Working Set" name="Aggregate for window 1681817745801"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1681834515070_3" label="Window Working Set" name="Aggregate for window 1681834515070"/>
+</workingSetManager>

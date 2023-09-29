@@ -1,0 +1,18 @@
+TDD(TEST DRIVEN DEVELOPMENT)
+*before writing the code we write the test.
+*we have to write the code to pass those test cases.
+*methods will be there but without code inside it.
+BDD(Behavioural deiven development)
+*Cucumber
+*user friendly comments in the test code.which is the scenario
+*client will mention the  scenarios and we have to write the code based on those scenarios.
+METHOD REFERENCE
+simplified way of writing lamda expression
+*can't do it in every lamda exprn.
+To simplify lambda expression.
+Very much limited
+Filter(s->s.length()>=5 ).foreach(System.out::println)
+Short cut way of writing lambda expresion
+We can only  in scenario where we have to print the lambda object directly(s)
+If we have to print anything along with we cant use
+Map(String::toUpperCase).

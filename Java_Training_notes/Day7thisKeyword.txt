@@ -1,0 +1,18 @@
+Day 7
+__________
+This Keyword
+-----------------
+*used to differentiate b/w objects and arguments.
+*when arguments and objects have same name we use this keyword otherwise it can be ignored.
+the value we passing through the constructor should be assigned with the class objects.for that,we use "this."
+keyword.
+eg:-
+	
+
+
+Access Modifier in java
+------------------------
+1.public
+2.private
+3.protected
+4.default:-can acess by any class but should be in the same package

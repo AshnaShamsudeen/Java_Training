@@ -1,0 +1,22 @@
+Day 
+Files & I/O
+--------------
+
+Read Information from a file
+*This concept is called de-Serialization
+/classes that can be used to read a file
+-FileInputStream-:Byte Oriented
+-FileReader-:Character Oriented
+	1 Character=2 byte
+*Stream is a sequence of data that flows in one way
+
+
+
+Write Information from a file
+------------------------------
+*This concept is called serialization
+
+*marker interface:interface which doesnt have any
+
+
+

@@ -1,0 +1,32 @@
+Map
+-------
+*Hash map has no order followed
+*Linked hash map follows order
+*keys are unique .values can be repeated
+*Tree map is always sorted.
+*comparable
+*Map is a Key-value pair
+
+
+Software Testing
+-------------------
+-Unit Testing
+	:-testing of individual unit
+		eg:JUnit
+-Integration Testing
+-End-to-End Testing
+	:-Testing whole application
+
+JUnit:-Java Library for writing unit testing
+
+//try to do multiple assertions and get into the final result.
+
+Lifecycle hooks
+-BeforeAll
+-BeforeEach
+-AfterEach
+-AfterAll
+
+*Map can't be sorted.Collections.sort is specifically for list...when we are using Tree Map it will sort the 
+key values only not the "value"
+*sort in a list and put it into a HashMap.

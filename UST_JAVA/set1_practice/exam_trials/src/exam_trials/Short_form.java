@@ -1,0 +1,23 @@
+package exam_trials;
+
+public class Short_form {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str="Indian Railway Systems Vallavan Pillai";
+		String[] st1=str.split(" ");
+		String dot=".";
+		int i=0;
+		for(String words:st1) {
+			System.out.print(words.charAt(0)+dot);
+			i+=1;
+			if(i==st1.length-1) {
+				dot="";
+			}
+		
+			
+		}
+
+	}
+
+}

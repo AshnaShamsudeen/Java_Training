@@ -1,0 +1,9 @@
+Design Pattern
+1.Creational:how to create the object
+    :-Single ton,Factoring
+2.Structural:how to relate certain classes
+3.Behavioral:how one object is gonna communicate with other objects
+
+System.out.printf("%20d",x)
+
+//Bufferred Reader br=new Bufferred Reader(new InputStream Reader(System.in));-->old method for scanner

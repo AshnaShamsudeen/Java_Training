@@ -1,0 +1,25 @@
+package exam_trials;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class List_comparator {
+	static List<String> descendingOrder(List<String>list) {
+		Collections.sort(list);
+		
+	}
+ 
+	public static void main(String[] args) {
+		List<String> list=new ArrayList<>();
+		list.add(0, "a");
+		list.add(0, "abhi");
+		list.add(0, "abhirami");
+		list.add(0, "abhiraman");
+		list.add(0, "shymapauljustin");
+		
+		
+
+	}
+
+}

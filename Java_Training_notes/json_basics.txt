@@ -1,0 +1,29 @@
+Cookies
+-------
+:-text data that get stored inside your browser
+:eg:-suggestions in applications
+*permanent until we manually clear it
+*to store small data
+session storage
+---------------
+:-temporary storage.
+*data get cleared when we close the tab
+local storage
+-------------
+:-data will be there until you clear it.
+eg:passwords 
+*to store small data
+
+
+To store large data:-
+	JSON-SERVER
+
+
+GET:to get something(fetching data)
+http://localhost:3500/employees/1001
+POST:to adding new data
+Delete:to delete data
+http://localhost:3500/employees/1001
+PUT:to update
+
+

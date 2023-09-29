@@ -1,0 +1,17 @@
+API(Application Programming Interface)
+--------------------------------------
+*only consist of raw data not structure  like in html.
+*specifically for web appn.
+
+AJAX(Asynchronous JavaScript And XML)
+-------------------------------------
+XHR-XML HTTP REQUEST
+
+*FETCH API
+*AXIOUS
+
+
+status code
+-------------
+404-not found
+200-ok

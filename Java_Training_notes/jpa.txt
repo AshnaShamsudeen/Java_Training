@@ -1,0 +1,14 @@
+JPA(Java Persistance API)
+-------------------------
+OPM(Object Relational Mapping)
+------------------------------
+
+
+TESTING
+-------
+1.UNIT TESTING
+2.INTEGRATION TESTING
+
+Mocking:rather than calling actual repository directly we call another repository to call actual repository.
+
+ 

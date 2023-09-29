@@ -1,0 +1,109 @@
+ Day 5
+--------
+
+
+Arrays
+.............>
+Collection of values.
+
+Syntax:-
+
+	data-type []array-name = new data-type[size];
+
+eg:
+	int [] numbers = new int[5];
+			
+		or
+	int []numbers;
+	numbers = new int[5];
+
+*"new" keyword is used for dyanamic allocation
+*In java , Array is dyanamic :. we must use new
+*Index number starts with 0(range=0 to (length-1))
+*length of array=name_of_array.length
+
+
+
+
+Command line argument --->args
+:-
+
+
+
+Enhanced FOR LOOP
+
+
+
+
+
+MultiDimensional Array
+------------------------
+
+a)2D array/Matrix
+
+
+declaration:-
+
+		int[][] array_name=new int[i][j];
+
+
+String in java
+----------------
+-->checking equality
+	How?
+	eg:-
+	String str="asdf";
+	String str="while";
+	String str="While";
+
+	str.equals(str2) -->false
+	str.equals(str3)-->false
+	str2.equalsIgnoreCase(str3)-->true
+
+
+to compare
+
+str1.compareTo(str2)
+
+ASCII values are compared here
+
+
+How to get length?
+str1.length();
+
+How to get a character at a position?
+str1.charAt(position)
+
+
+How to get the position of a character?
+str1.indexOf("charToCheck")
+
+str1.LastIndexOf("charToCheck")
+
+
+How to check whether a string contains another string?
+StringName.contains("string to be searched")
+StringName.IndexOf("string to be searched")
+
+
+String line="hai Karan, how are you?"
+
+line.contains("karan")-->true
+line.contains("rahul")-->false
+
+
+
+
+
+
+string   vs String Buffer/String Builder
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+Bootstrap
+---------
+*Responsive design
+*Mobile first(priority to small screen)
+*Grid System

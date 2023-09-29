@@ -1,0 +1,30 @@
+java 8 features
+----------------
+
+1.default and static methods in interface.(interface with body)
+2.Functional interface & Lambda Expression
+3.Stream API
+4.Collection API improvements.
+5.Date & Time improvements.
+  
+lamda expression is only possible for single abstract method which is called functional inteface
+
+
+*what is functional interface?
+	An abstract consisting of single abstract method.
+*Lambda expression?
+ 	Lambda expressionare the implementation of functional interface.
+*-> denotes Lambda expression
+*we can create static and default methods in functional interface but can't create more than 1 abstract method.
+*default?
+	default interface can have methods with body
+
+Stream API:
+	filter:filter the data based on certain condn(intermidiate method )-->will return another stream
+	map:changes the values(intermediate method)
+	reduce:reduce the entire stream to a single value(termination method)-->will return an integer value not stream, we can't do map or filter after this 
+										ie,it terminates.
+
+
+Comparable :
+	solved by using comparator	

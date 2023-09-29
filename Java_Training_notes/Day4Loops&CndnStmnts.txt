@@ -1,0 +1,305 @@
+Topics:-
+	Switch
+	conditional operator/Tertiory operator
+	Looping
+-----------------------------------------
+
+Q:-Display msg based on the day.
+________________________________
+
+Conditional operator
+----------------------
+Syntax:
+	output = expression ? value if true : value if false;
+eg:-
+	int largest = num1>num2 ? num1 : num2;
+
+
+
+Looping
+----------
+a)while (entry-controlled)
+b)do-while(exit controlled)
+c)for
+
+
+
+continue:-Skipping
+break:-stop
+
+
+eg:-
+import java.util.Scanner;
+class E10{
+    public static void main(String []args){
+int count=0;
+int sum=0;
+int avg=0;
+Scanner sc=new Scanner(System.in); 
+System.out.println("enter 5 numbers");
+while(count<5)
+{
+    int num=sc.nextInt();
+      
+    if(num<0)
+    
+    {count++;
+        continue;}
+    sum=sum+num;
+    count++;
+    
+}
+System.out.println("average is "+ sum/count);
+System.out.println("sum is " +sum);
+}}
+
+
+
+Output
+---------
+
+
+
+enter 5 numbers
+1
+2
+-3
+5
+6
+average is2
+sum is14
+
+
+eg2:-
+import java.util.Scanner;
+class E10{
+    public static void main(String []args){
+int count=0;
+int sum=0;
+int avg=0;
+Scanner sc=new Scanner(System.in); 
+System.out.println("enter 5 numbers");
+while(count<5)
+{
+    int num=sc.nextInt();
+      
+    if(num<0)
+    
+    {count++;
+        break;}
+    sum=sum+num;
+    count++;
+    
+}
+System.out.println("average is"+ sum/count);
+System.out.println("sum is" +sum);
+}}
+
+output
+--------
+
+enter 5 numbers
+1
+2
+3
+-9
+average is1
+sum is6
+__________________________
+for loop
+
+
+Syntax:
+	for(initialization;condition;increment/decrement)
+	{
+	Statements;
+	.....................
+	}
+exit control:-
+entry control:-
+
+
+
+eg:-
+import java.util.Scanner;
+class ForLoop{
+    public static void main(String []args){
+int input=5;
+
+for(int count=1;count<=10;count++)
+{System.out.println(count +" X "+ input +" = " + count*input);}
+    }
+}
+
+
+
+
+eg2:-
+
+
+
+import java.util.Scanner;
+class ForLoop2{
+    public static void main(String []args){
+int sum=0;
+int avg=0;
+Scanner sc=new Scanner(System.in); 
+System.out.println("enter 5 numbers");
+for(int count=1;count<=5;count++)
+{
+    int num=sc.nextInt();
+    sum=sum+num;  
+}
+System.out.println("average is"+ sum/5);
+System.out.println("sum is" +sum);
+}}
+
+
+
+
+
+
+
+
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import java.util.Scanner;
+class Pattern2{
+    public static void main (String []args){
+        int lines;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number of lines");
+        lines=sc.nextInt();
+       
+        for(int row=1;row<=lines;row++)
+        {
+            for(int col=1;col<=row;col++){
+            
+        
+        if(row%2==0){
+                System.out.print("#  ");
+        }
+        else{
+            System.out.print("*  ");
+        }
+        }
+
+        System.out.println();
+    }
+}
+}
+
+
+
+
+
+
+import java.util.Scanner;
+class Fibinoccii{
+    public static void main (String []args){
+        int num1=1;
+        int num2=1;
+        int limit;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the limit");
+        limit=sc.nextInt();
+        System.out.print(num1+ "\t");
+       while(num2<limit){
+           System.out.print(num2+ "\t");
+           int Oldn1=num1;
+           num1=num2;
+           
+           num2=Oldn1+num2;
+
+
+       }}}
+
+
+
+
+import java.util.Scanner;
+class Fibinoccii{
+    public static void main (String []args){
+        int num1=1;
+        int num2=1;
+        int limit;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the limit");
+        limit=sc.nextInt();
+        System.out.print(num1+ "\t");
+       while(num2<limit){
+           System.out.print(num2+ "\t");
+           
+           num2=num1+num2;
+           num1=num2-num1;
+
+
+       }}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import java.util.Scanner;
+class Pattern2{
+    public static void main (String []args){
+        int lines;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number of lines");
+        lines=sc.nextInt();
+       
+        for(int row=1;row<=lines;row++)
+        {
+            for(int col=1;col<=row;col++){
+            char ch=row%2==0 ? '#' : '*';
+        
+        System.out.print(ch + " ");
+        }
+
+        System.out.println();
+    }
+}
+}

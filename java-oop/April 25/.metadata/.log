@@ -1,0 +1,235 @@
+!SESSION 2023-04-25 23:53:13.354 -----------------------------------------------
+eclipse.buildId=4.2.1.201904170946-RELEASE
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2023-04-25 23:53:20.574
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2023-04-25 23:53:21.462
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-04-25 23:53:21.462
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@391e5ffa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f4d391c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-25 23:53:27.585
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\249416'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-04-25 23:53:49.437 -----------------------------------------------
+eclipse.buildId=4.2.1.201904170946-RELEASE
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2023-04-25 23:56:13.828
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2023-04-25 23:56:15.113
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-04-25 23:56:15.113
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ebff59d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3361d286,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-25 23:56:20.246
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\249416'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:50.258
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:50.261
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@b257072[org.springframework.tooling.boot.ls:1.6.0.201904170912(id=534)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:50.264
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:50.309
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.501
+!MESSAGE Boot LS startup time from start to initialized: 5224ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.531
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YilZWNOZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.533
+!MESSAGE subscribing to classpath changes: sts4.classpath.YilZWNOZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.536
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.539
+!MESSAGE subsribers = [sts4.classpath.YilZWNOZ]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.541
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.545
+!MESSAGE project customer-management-app ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.547
+!MESSAGE project April25 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.549
+!MESSAGE Preparing classpath changed notification customer-management-app
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.552
+!MESSAGE project April25 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.554
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.556
+!MESSAGE project Set ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.557
+!MESSAGE project Set SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.559
+!MESSAGE classpath=15 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.560
+!MESSAGE project SetDemo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.562
+!MESSAGE executing callback sts4.classpath.YilZWNOZ customer-management-app false 15
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.563
+!MESSAGE project unit-testing ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.565
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.567
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YilZWNOZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.591
+!MESSAGE executing callback sts4.classpath.YilZWNOZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.592
+!MESSAGE Preparing classpath changed notification unit-testing
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.594
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.596
+!MESSAGE classpath=15 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.598
+!MESSAGE executing callback sts4.classpath.YilZWNOZ unit-testing false 15
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.607
+!MESSAGE executing callback sts4.classpath.YilZWNOZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.609
+!MESSAGE Preparing classpath changed notification SetDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.612
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.614
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.615
+!MESSAGE executing callback sts4.classpath.YilZWNOZ SetDemo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:58:55.621
+!MESSAGE executing callback sts4.classpath.YilZWNOZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.682
+!MESSAGE Preparing classpath changed notification unit-testing
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.685
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.688
+!MESSAGE classpath=16 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.691
+!MESSAGE executing callback sts4.classpath.YilZWNOZ unit-testing false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.709
+!MESSAGE executing callback sts4.classpath.YilZWNOZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.712
+!MESSAGE Preparing classpath changed notification customer-management-app
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.715
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.718
+!MESSAGE classpath=16 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.721
+!MESSAGE executing callback sts4.classpath.YilZWNOZ customer-management-app false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.730
+!MESSAGE executing callback sts4.classpath.YilZWNOZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.733
+!MESSAGE Preparing classpath changed notification SetDemo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.736
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.739
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.741
+!MESSAGE executing callback sts4.classpath.YilZWNOZ SetDemo false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-25 23:59:38.748
+!MESSAGE executing callback sts4.classpath.YilZWNOZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-26 00:00:51.668
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YilZWNOZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-26 00:00:51.672
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YilZWNOZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-26 00:00:51.676
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-04-26 00:00:51.679
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YilZWNOZ => OK

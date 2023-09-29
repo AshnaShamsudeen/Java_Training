@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\UST_JAVA\set1_practice\set1_practice\.metadata\.plugins\org.eclipse.jdt.core
+1755401707.index

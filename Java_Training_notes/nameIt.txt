@@ -1,0 +1,13 @@
+RECAP
+-----
+
+*if we doesn't declare anything inside a method int will lead to compilation error
+*but inside a class ,default value will be 0(for integer)
+*null pointer exception will occur when we doesn't have a reference variable.
+*Any variable with new ponts to heap.
+*Garbage collection will collect the value in heap that has no reference in stalk.
+
+*final vs filanally vs finalize()
+--------------------------------
+*this method can be override.
+*system-yc->to request to clean the garbbage value

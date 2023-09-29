@@ -1,0 +1,20 @@
+package set1_practice;
+
+import java.util.Scanner;
+
+public class Main5 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the time");
+		String time=sc.nextLine();
+		String str=time.toLowerCase();
+		int result=Validate_Time.validateTime(str);
+		if(result==1) {
+			System.out.println("valid time");
+		}
+		else {
+			System.out.println("Invalid time");
+		}
+	}
+
+}

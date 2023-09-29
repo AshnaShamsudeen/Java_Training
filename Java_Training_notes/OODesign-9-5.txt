@@ -1,0 +1,95 @@
+Object Oriented Design
+----------------------
+
+Cobol-->C-->OOPlang-->OODesign
+
+->UML(Unified Modelling Language)
+Related to class:-
+	*Abstraction
+	*Encapsulation
+	*Decomposition
+	*Generalisation
+
+class StudentGrade{
+
+private	double grade;
+public void setGrade(double grade){
+	if(grade<=5){
+		this.grade=grade;
+	}
+	.....
+}
+} sg.setGrade(9)
+
+
+*in class
+"-" denotes private
+"+" denotes public
+
+
+
+eg:-
+
+Car                                Name
+
+-color                             Properties
+-model  
+
++setColor(color:String)
++getColor():  String               Methods  
+
+Decomposition
+Association
+-----------
+*somehow the are related but they also can individually exist.
+*Where boh the object can exist individually
+eg:Flight and Passengers
+---Fridge and Fruits
+
+"________ " single line is used to denote association .   
+
+Aggregation
+------------
+*It is a "Has-A" relationship where one object is dependent on the other
+eg:Flight and Crew-Member
+"<>--------" denotes agregation.
+Composition
+-----------
+It is a strong "Has-A" relationship where both object are dependant on each other and no one can exists individually
+eg:Person and Brain
+--Car and Engine
+--Employee and Salary
+
+
+
+Generalisation
+--------------
+Animal
+#color
+#size
++speak()
+Cat
+speak(){
+sout("meow...");
+}
+Dog
+speak(){
+sout("bark...");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+               

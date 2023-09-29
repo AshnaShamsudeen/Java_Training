@@ -1,0 +1,70 @@
+Day 14
+________
+
+
+Throw Vs Throws
+----------------
+
+
+Throw:generating an exception
+------
+*Syntax:
+	throw new Exception-class-name(message)
+
+	eg:throw new InvalidAgeException("Invalid Age")
+
+
+
+
+Throws:Declaring an exception
+------
+*write only if it is a checked exception
+*throws helps to skip try catch block
+Syntax:
+	method_name() throws Exception_Type
+
+	eg:public void readAge() throws InvalidAgeException
+
+
+Collection FrameWorks:colln of classes and interfaces provide diff. types of colln/data structure & common oprns like searching ,sorting
+----------------------
+
+Array Limitation:
+		*size(no flexibility)
+		*time consuming(searching,sorting)
+3 types:
+
+1.List-collection(index based,allows duplicates)
+-------
+	a)ArrayList
+	b)LinkedList
+	c)Vector
+2.Queue
+---------
+FIFO DATA STRUCTURE
+*always processing we have to delete that element
+*Allows duplicates
+	a)Priority queues
+	b)LinkedList
+3.Set-Collection of unique based elements(Hash based)
+--------
+*duplicates not allowed
+*no order
+	a)HashSet
+	b)TreeSet
+
+Generic types:
+	It defines the type of data that a collection should have
+	*we mention generic using <> diamond braces
+
+
+*Always use interface in the leftside*
+eg:Instead
+eg:
+
+
+
+
+
+
+		
